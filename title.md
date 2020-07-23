@@ -1,6 +1,4 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-        let markdown = `# ${data.title}
+# title
         |      Table of Contents:       |
         |-------------------------------|
         | [Install](#install) |
@@ -12,40 +10,41 @@ function generateMarkdown(data) {
         |     [License](#license)       |
         
         ## Description
-        \n ${data.desc}
+        
+ it's awesome
         
         ## Install
-        \n ${data.install}
+        
+ quick install
         
         ## Usage 
-        \n
-        ${data.usage}
+        
 
-        ## Contributing:\n
-         ${data.participants}  
+        it works hard
+
+        ## Contributing:
+
+         myself and that guy  
         
         ## Tests:
         Command for running tests for this app:
-        \n ${data.test}
+        
+ no test
         
         ## Questions:
-        [${data.github}'s Github](https://github.com/${data.github}/)
+        [question everything's Github](https://github.com/question everything/)
         
         ## Credits:
          Collaborating Credits:
-        \n ${data.participants}
+        
+ myself and that guy
         
         ## License information:
-        \n 
-        ${data.license}
+        
+ 
+        [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
         [https://choosealicense.com/](https://choosealicense.com/)
         
 
-         &#x1F981; ${data.github} &#x1F981; 
-        `
-        return markdown;
-      }
-      
-      module.exports = generateMarkdown;
-      
-      
+         &#x1F981; question everything &#x1F981; 
+        
